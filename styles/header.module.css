@@ -1,0 +1,22 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin-top: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.header_link {
+  margin: 0 12px;
+  color: #b0b3b8;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.header_link:hover {
+  background: -webkit-linear-gradient(#90cea1, #01b4e4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
